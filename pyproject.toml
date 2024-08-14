@@ -1,0 +1,15 @@
+[project]
+name = "nx_translator"
+description = "A custom node for translating prompts with Google Translate or DeeplL directly in ComfyUI."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["python-dotenv", "deepl"]
+
+[project.urls]
+Repository = "https://github.com/Franck-Demongin/NX_Translator"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "NX_Translator"
+Icon = ""
